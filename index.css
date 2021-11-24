@@ -1,0 +1,328 @@
+body{
+    background: #3D087B;
+    position: relative;
+    height: 600px;
+}
+.clock img{
+    width: 10rem;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+.box1{
+    position: absolute;
+    top: 67px;
+    left: 568px;
+    width: 310px;
+    height: 114px;
+    background:white;
+    border-radius: 10px;
+    opacity: 0.22;
+}
+.box2{
+    position: absolute;
+    top: 55px;
+    left: 539px;
+    width: 368px;
+    height: 113px;
+    background: white;
+    border-radius: 10px;
+    opacity: 0.61;
+}
+.box3{
+
+    position: absolute;
+    top: 42px;
+    left: 497px;
+    width: 447px;
+    height: 109px;    
+    background: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.set-box{
+position: absolute;
+top: 212px;
+left: 3rem;
+width: 410px;
+height: 228px;
+background:white;
+border-radius: 10px;
+}
+.set-box img {
+    height: 32px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    /* padding-bottom: 2rem; */
+    display: flex;
+}
+.line1{
+    height: 32px;
+    width: 1px;
+    margin-left: 32px;
+    margin-top: 5px;
+    background: grey
+}
+.line2{
+    height: 32px;
+    width: 1px;
+    margin-left: 32px;
+    margin-top: 5px;
+    background: grey
+}
+.img-box{
+    position: absolute;
+    top: 212px;
+    left: 497px;
+    width: 447px;
+    background: white;
+    border-radius: 10px;
+    opacity: 1;
+}
+#picture {
+    height: 18.7rem;
+    background: url(./images/5951110.jpg) no-repeat;
+    background-size: contain;
+}
+#caption {
+    color: #8E53F0;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1.5px;
+    width: 99%;
+    text-align: center;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+}
+.wake-up h6{
+    position: absolute;
+    left: 4rem;
+    font-size: 16px;
+    bottom: 9.3rem;
+    color: #3D087B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.wake-up select{
+    position: absolute;
+    position: absolute;
+    top: 18px;
+    left: 12rem;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: #3D087B;
+    border:1px solid #3D087B;
+}
+.wake-up option{
+    color: black;
+    font-size: 10px;
+}
+
+
+.lunch h6{
+    position: absolute;
+    left: 4rem;
+    top: 4.5rem;
+    font-size: 16px;
+    bottom: 9.3rem;
+    color: #3D087B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.lunch select{
+    position: absolute;
+    top: 106px;
+    left: 12rem;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: #3D087B;
+    border:1px solid #3D087B;
+}
+.lunch option{
+    color: black;
+    font-size: 10px;
+}
+.nap h6{
+    position: absolute;
+    left: 4rem;
+    top: 9.5rem;
+    font-size: 16px;
+    bottom: 9.3rem;
+    color: #3D087B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.nap select{
+    position: absolute;
+    position: absolute;
+    top: 11.5rem;
+    left: 12rem;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: #3D087B;
+    border:1px solid #3D087B;
+}
+.nap option{
+    color: black;
+    font-size: 10px;
+}
+.set-time button{
+    position: absolute;
+    background:linear-gradient(115deg,#CB52F8,#FC5EFF );
+    top: 29rem;
+    left: 3rem;
+    height: 2rem;
+    width: 11rem;
+    border-radius: 3px;
+    text-align: center;
+    border: none;
+}
+.set-time h2{
+    margin-top: 6px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.set-time button:hover{
+    background:linear-gradient(115deg,#CB52F8,#6E54EC );
+    cursor: pointer;
+}
+#clock{
+    width: 15%;
+    height: 80%;
+    float: left;
+    color: #3D087B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    
+}
+#clock h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+#clock-hours{
+    width: 15%;
+    float: left;
+    color: #8A11BF;
+    font-size: 18px;
+    margin-left: 15px;
+    background: #F6E2FF;
+    margin-top: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:5px    
+}
+#clock-hours  p{
+    text-align: center;
+}
+#clock-hours span{
+    font-size: 25px;
+    margin-left: 19px;
+    font-weight: 500;
+}
+.colon1 {
+    width: 6px;
+    height: 6px;
+    background: #8A11BF;
+    position: absolute;
+    left: 156px;
+    top: 2rem;
+}
+.colon2 {
+    width: 6px;
+    height: 6px;
+    background: #8A11BF;
+    position: absolute;
+    left: 156px;
+    top: 4rem;
+}
+#clock-minutes{
+    width: 15%;
+    float: left;
+    color: #8A11BF;
+    font-size: 18px;
+    margin-left: 20px;
+    background: #F6E2FF;
+    margin-top: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:5px
+}
+#clock-minutes  p{
+    text-align: center;
+}
+#clock-minutes span{
+    font-size: 25px;
+    margin-left: 19px;
+    font-weight: 500;
+}
+.colon3 {
+    width: 6px;
+    height: 6px;
+    background: #8A11BF;
+    position: absolute;
+    left: 242px;
+    top: 2rem;
+}
+.colon4 {
+    width: 6px;
+    height: 6px;
+    background: #8A11BF;
+    position: absolute;
+    left: 242px;
+    top: 4rem;
+}
+#clock-seconds{
+    width: 15%;
+    float: left;
+    color: #8A11BF;
+    font-size: 18px;
+    margin-left: 20px;
+    background: #F6E2FF;
+    margin-top: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:5px
+}
+#clock-seconds  p{
+    text-align: center;
+}
+#clock-seconds span{
+    font-size: 25px;
+    margin-left: 19px;
+    font-weight: 500;
+}
+#am{
+    width: 15%;
+    height: 68.5%;
+    float: left;
+    background: linear-gradient(#CB52F8,#FC5EFF);
+    margin-left: 23px;
+    margin-top: 7px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 18px;
+
+}
+
+#dynamic-block{
+    width: 24.5rem;    
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    background: linear-gradient(#CB52F8,#FC5EFF);
+    color: white;
+    position: absolute;
+    left: 3rem;
+    top: 32rem;
+    height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
